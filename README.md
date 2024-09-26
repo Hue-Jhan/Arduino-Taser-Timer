@@ -17,13 +17,16 @@ Arduino timer that lights a 50k volts taser, activated by a remote, a radio modu
 
 # 💻 Code
 
-The codes i provided are different ways to activate the taser, once the countdown begins, it will be shown on the 4-digit display (u might wanna connect the pins with care or else the digit will be corrupted like in my case xd). Once the countdown reaches 0, a servo moves a battery which closes a circuit between itself and the Taser, activating it. You can replace the servo with a simple relay, or a very strong transistor. Be careful because as i've shown on my [spider bot](https://github.com/Hue-Jhan/Arduino-Spider-Bot) the transistor might blow up due to the high current/voltage passing through it, use a strong resistor! You can find the timer and display code in the `taser_timer.ino`.
+The codes i provided are different ways to activate the taser, once the countdown begins, it will be shown on the 4-digit display (u might wanna connect the pins with care or else the digit will be corrupted like in my case xd). Once the countdown reaches 0, a servo moves a battery which closes a circuit between itself and the Taser, activating it. You can replace the servo with a simple relay, or a very strong transistor. You can find the timer and display code in the `taser_timer.ino`.
+> [!CAUTION]
+> Be careful because as i've shown on my [spider bot](https://github.com/Hue-Jhan/Arduino-Spider-Bot) the transistor might blow up due to the high current/voltage passing through it, use a strong resistor! 
 
 ### 1) Infrared Remote module
 
 Here i used a simple remote, u can change the button code to insert any specific button u like, u can get the button codes by simply serial printing the data once u push a button. You can find the code in `simple_remote.ino`, the range of the remote is less than 10 meters tho.
 
 https://github.com/user-attachments/assets/ee8edd16-097a-43c6-a164-cab68a828685
+
 
 ### 2) Rf 433Mhz radio Module  <img align="right" src="media/rf2.jpg" width="300" />
 
@@ -35,7 +38,11 @@ Here is instead an example using a prebuilt trasmitter-receiver module, also cal
 
 https://github.com/user-attachments/assets/79d4b507-433d-45fe-bce5-1d06b3df88a2
 
-### 3) Simple button
 
-Yeah its pretty much just a button that activates a timer. Code shown in `simple_button.ino`. Its the least practical in my opinion
+#### 3) Simple button
+
+Yeah its pretty much just a button that activates a timer. Code shown in `simple_button.ino`. Its the least practical in my opinion.
+
+> [!WARNING]  
+> These codes are meant to be used only for educational purposes. I condone any bad stuff done with them : )
 
