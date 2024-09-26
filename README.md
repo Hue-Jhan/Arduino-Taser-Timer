@@ -25,10 +25,12 @@ Here i used a simple remote, u can change the button code to insert any specific
 
 https://github.com/user-attachments/assets/ee8edd16-097a-43c6-a164-cab68a828685
 
-### 2) Rf 433Mhz radio Module  <img align="right" src="media/rf2.jpg" width="400" />
+### 2) Rf 433Mhz radio Module  <img align="right" src="media/rf2.jpg" width="300" />
 
-You can amplify the range of this """"timer""" by using the rf module, this module consists in a Receiver (pic on the right) and a trasmitter (pic below). There are several kinds of modules you can buy, but they all pretty much work the same way so it doesnt matter which one u buy. Friendly advice: if u can, buy the ones where the antenna is already pre-soldered, because soldering it can be a pain in the 4$$. The longer is the antenna, the bigger will be the range they can operate in, in my case it should be around 1km, the ones with the small copper-colored antenna should have a range inferior to 100m, the range decreases inside buildings of course.  <img align="right" src="media/rf1.jpg" width="400" />
+You can amplify the range of this """"timer""" by using the rf module, this module consists in a Receiver (pic on the right) and a trasmitter (pic below). There are several kinds of modules you can buy, but they all pretty much work the same way so it doesnt matter which one u buy. Friendly advice: if u can, buy the ones where the antenna is already pre-soldered, because soldering it can be a pain in the 4$$. The longer is the antenna, the bigger will be the range they can operate in, in my case it should be around 1km, the ones with the small copper-colored antenna should have a range inferior to 100m, the range decreases inside buildings of course.  <img align="right" src="media/rf1.jpg" width="300" />
 
-The code is very simple, it's litterally just an if/else condition, you may add ecnryption to make it unreadble
+The code, which u can find in `simple_transmitter.ino` and `simple_receiver.ino`, is very simple, it's litterally just an if/else condition, you may add ecnryption to make it unreadble.
+
+
 
 ` `
