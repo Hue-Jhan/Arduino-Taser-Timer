@@ -34,7 +34,7 @@ You can amplify the range of this """"timer""" by using the rf module, this modu
 
 The code, which u can find in `simple_transmitter.ino` and `simple_receiver.ino`, is very simple, it's litterally just an if/else condition, you may add ecnryption to make it unreadble.
 
-Here is instead an example using a prebuilt trasmitter-receiver module, also called "remote control radio module", it comes with an inner 25v 10 Amps relay, you can find it on Aliexpress for under 5 bucks, in this specific example i used it to move a motor, i attached it to 2 batteries instead of 1 bc i had trying the single battery circuit.
+Here is instead an example using a prebuilt trasmitter-receiver module, also called "remote control radio module", it comes with an inner 25v 10 Amps relay, you can find it on Aliexpress for under 5 bucks, in this specific example i used it to move a motor, i attached it to 2 batteries instead of 1 bc i had issues trying the single battery circuit.
 
 https://github.com/user-attachments/assets/79d4b507-433d-45fe-bce5-1d06b3df88a2
 
@@ -44,5 +44,5 @@ https://github.com/user-attachments/assets/79d4b507-433d-45fe-bce5-1d06b3df88a2
 Yeah its pretty much just a button that activates a timer. Code shown in `simple_button.ino`. Its the least practical in my opinion.
 
 > [!WARNING]  
-> These codes are meant to be used only for educational purposes. I condone any bad stuff done with them : )
+> These codes and instructions are meant to be used only for educational purposes. I condone any bad stuff done with them : )
 
