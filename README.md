@@ -38,10 +38,7 @@ Here is instead an example using a prebuilt trasmitter-receiver module, also cal
 
 https://github.com/user-attachments/assets/79d4b507-433d-45fe-bce5-1d06b3df88a2
 
-
-#### 3) Simple button
-
-Yeah its pretty much just a button that activates a timer. Code shown in `simple_button.ino`. Its the least practical in my opinion.
+There are other practical ways to start the timer, i will probably add them in the future.
 
 > [!WARNING]  
 > These codes and instructions are meant to be used only for educational purposes. I condone any bad stuff done with them : )
